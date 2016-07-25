@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPTest_Example' do
+  pod 'CPTest', :path => '../'
+
+  target 'CPTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
