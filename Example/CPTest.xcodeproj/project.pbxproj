@@ -14,6 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6ADDC2F01D468D8400B9CDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC2EF1D468D8400B9CDCD /* main.m */; };
+		6ADDC2F31D468D8400B9CDCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC2F21D468D8400B9CDCD /* AppDelegate.m */; };
+		6ADDC2F61D468D8400B9CDCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC2F51D468D8400B9CDCD /* ViewController.m */; };
+		6ADDC2F91D468D8400B9CDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDC2F71D468D8400B9CDCD /* Main.storyboard */; };
+		6ADDC2FB1D468D8400B9CDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDC2FA1D468D8400B9CDCD /* Assets.xcassets */; };
 		9415E1343ADD1324495558EA /* Pods_CPTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F4F8DD424B3C34878893F0 /* Pods_CPTest_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34C0C7F3DB5B3FA9873DD7CB /* CPTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPTest.podspec; path = ../CPTest.podspec; sourceTree = "<group>"; };
+		34C0C7F3DB5B3FA9873DD7CB /* CPTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = CPTest.podspec; path = ../CPTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37F42D18691F882E8601D5A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		513C2708FE74195E1008415C /* Pods-CPTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPTest_Example/Pods-CPTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CF31B792C6F244D6E8DC8FC /* Pods-CPTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPTest_Tests/Pods-CPTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,6 +47,15 @@
 		607FACE51AFB9204008FA782 /* CPTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6ADDC2EC1D468D8400B9CDCD /* CPTestTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPTestTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDC2EF1D468D8400B9CDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ADDC2F11D468D8400B9CDCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ADDC2F21D468D8400B9CDCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ADDC2F41D468D8400B9CDCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ADDC2F51D468D8400B9CDCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ADDC2F81D468D8400B9CDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADDC2FA1D468D8400B9CDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADDC2FC1D468D8400B9CDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F4F8DD424B3C34878893F0 /* Pods_CPTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04EFE37DD7ED3B796C6B975 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BBF5D7DCC46AC25C18416980 /* Pods-CPTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPTest_Example/Pods-CPTest_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6ADDC2E91D468D8400B9CDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +96,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CPTest */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				6ADDC2ED1D468D8400B9CDCD /* CPTestTv */,
 				607FACD11AFB9204008FA782 /* Products */,
 				7C7AC4FC39B07FE909DB679C /* Pods */,
 				F36CA26BF92ECD00DF355954 /* Frameworks */,
@@ -86,6 +108,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* CPTest_Example.app */,
 				607FACE51AFB9204008FA782 /* CPTest_Tests.xctest */,
+				6ADDC2EC1D468D8400B9CDCD /* CPTestTv.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +160,29 @@
 				37F42D18691F882E8601D5A8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6ADDC2ED1D468D8400B9CDCD /* CPTestTv */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDC2F11D468D8400B9CDCD /* AppDelegate.h */,
+				6ADDC2F21D468D8400B9CDCD /* AppDelegate.m */,
+				6ADDC2F41D468D8400B9CDCD /* ViewController.h */,
+				6ADDC2F51D468D8400B9CDCD /* ViewController.m */,
+				6ADDC2F71D468D8400B9CDCD /* Main.storyboard */,
+				6ADDC2FA1D468D8400B9CDCD /* Assets.xcassets */,
+				6ADDC2FC1D468D8400B9CDCD /* Info.plist */,
+				6ADDC2EE1D468D8400B9CDCD /* Supporting Files */,
+			);
+			path = CPTestTv;
+			sourceTree = "<group>";
+		};
+		6ADDC2EE1D468D8400B9CDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDC2EF1D468D8400B9CDCD /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7C7AC4FC39B07FE909DB679C /* Pods */ = {
@@ -203,6 +249,23 @@
 			productReference = 607FACE51AFB9204008FA782 /* CPTest_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6ADDC2EB1D468D8400B9CDCD /* CPTestTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDC2FD1D468D8400B9CDCD /* Build configuration list for PBXNativeTarget "CPTestTv" */;
+			buildPhases = (
+				6ADDC2E81D468D8400B9CDCD /* Sources */,
+				6ADDC2E91D468D8400B9CDCD /* Frameworks */,
+				6ADDC2EA1D468D8400B9CDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPTestTv;
+			productName = CPTestTv;
+			productReference = 6ADDC2EC1D468D8400B9CDCD /* CPTestTv.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +282,9 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					6ADDC2EB1D468D8400B9CDCD = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -237,6 +303,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* CPTest_Example */,
 				607FACE41AFB9204008FA782 /* CPTest_Tests */,
+				6ADDC2EB1D468D8400B9CDCD /* CPTestTv */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDC2EA1D468D8400B9CDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDC2FB1D468D8400B9CDCD /* Assets.xcassets in Resources */,
+				6ADDC2F91D468D8400B9CDCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +448,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6ADDC2E81D468D8400B9CDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDC2F61D468D8400B9CDCD /* ViewController.m in Sources */,
+				6ADDC2F31D468D8400B9CDCD /* AppDelegate.m in Sources */,
+				6ADDC2F01D468D8400B9CDCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -397,6 +483,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6ADDC2F71D468D8400B9CDCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDC2F81D468D8400B9CDCD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -544,6 +638,39 @@
 			};
 			name = Release;
 		};
+		6ADDC2FE1D468D8400B9CDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = CPTestTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runtastic.iphone.CPTestTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		6ADDC2FF1D468D8400B9CDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = CPTestTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.runtastic.iphone.CPTestTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +700,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6ADDC2FD1D468D8400B9CDCD /* Build configuration list for PBXNativeTarget "CPTestTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDC2FE1D468D8400B9CDCD /* Debug */,
+				6ADDC2FF1D468D8400B9CDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

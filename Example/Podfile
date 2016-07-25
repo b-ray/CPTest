@@ -1,11 +1,15 @@
 use_frameworks!
 
 target 'CPTest_Example' do
-  pod 'CPTest', :path => '../'
-
-  target 'CPTest_Tests' do
-    inherit! :search_paths
-
+    platform :ios, '8.0'
+    pod 'CPTest', :path => '../', :subspecs => ['swift']
     
-  end
+    target 'CPTest_Tests' do
+        inherit! :search_paths
+    end
+end
+
+target 'CPTestTv' do
+    platform :tvos, '9.0'
+    pod 'CPTest', :path => '../', :subspecs => ['swift']
 end

@@ -1,0 +1,16 @@
+PODS:
+  - CPTest (0.1.0)
+
+DEPENDENCIES:
+  - CPTest (from `../`)
+
+EXTERNAL SOURCES:
+  CPTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPTest: 394d452e4c5ad170074b9f53211c9309336eb7bc
+
+PODFILE CHECKSUM: 87fd5f9be9627aa172ddbadcc8847790de98ed55
+
+COCOAPODS: 1.0.1

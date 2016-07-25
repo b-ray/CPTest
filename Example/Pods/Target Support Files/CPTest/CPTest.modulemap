@@ -1,0 +1,6 @@
+framework module CPTest {
+  umbrella header "CPTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
